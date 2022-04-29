@@ -4,6 +4,10 @@
   flex-basis: 50%;
 }
 
+.header__logo:hover {
+  opacity: 0.8;
+}
+
 @media screen and (max-width: 767px) {
   .header__logo {
     max-width: 142px;

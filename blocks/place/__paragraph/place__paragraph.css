@@ -1,0 +1,9 @@
+.place__paragraph {
+  text-rendering: optimizeLegibility;
+}
+
+@media screen and (max-width: 767px) {
+  .place__paragraph {
+    margin: 0 16px;
+  }
+}

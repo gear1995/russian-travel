@@ -1,0 +1,27 @@
+.place__list {
+  display: grid;
+  grid-template-columns: 460px 1fr;
+  grid-template-rows: auto;
+  list-style: none;
+  margin: 0 0 80px 0;
+  padding: 0;
+  column-gap: 40px;
+  text-rendering: optimizeLegibility;
+}
+
+.place__list:nth-last-child(1) {
+  margin: 0;
+}
+
+@media screen and (max-width: 1023px) {
+  .place__list {
+    margin: 0 0 73px 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .place__list {
+    grid-template-columns: auto;
+    margin: 0 0 50px 0;
+  }
+}

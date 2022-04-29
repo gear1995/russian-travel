@@ -1,0 +1,8 @@
+.place__link-item {
+  color: #ffffff;
+  font-family: "inter";
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 400;
+  align-self: flex-end;
+}
