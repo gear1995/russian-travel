@@ -1,7 +1,6 @@
 .place__link {
   align-self: flex-end;
   margin-bottom: 48px;
-  text-rendering: optimizeLegibility;
 }
 
 @media screen and (max-width: 767px) {

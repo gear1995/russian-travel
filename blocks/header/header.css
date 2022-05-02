@@ -5,23 +5,19 @@
   align-items: center;
   justify-content: space-between;
   width: calc(100% - 96px);
-  height: 52px;
+  min-height: 52px;
   padding-bottom: 56px;
 }
 
 @media screen and (max-width: 1279px) {
   .header {
     width: calc(100% - 96px);
-    min-height: 52px;
-    padding-bottom: 56px;
   }
 }
 
 @media screen and (max-width: 1023px) {
   .header {
     width: calc(100% - 48px);
-    height: 52px;
-    padding-bottom: 56px;
   }
 }
 @media screen and (max-width: 767px) {
@@ -29,6 +25,6 @@
     width: calc(100% - 32px);
     padding-top: 16px;
     padding-bottom: 48px;
-    height: 42px;
+    min-height: 42px;
   }
 }

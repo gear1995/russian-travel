@@ -1,8 +1,12 @@
 .place__link-item {
   color: #ffffff;
-  font-family: "inter";
+  font-family: "Inter", Arial, sans-serif;
   font-size: 18px;
   line-height: 22px;
   font-weight: 400;
   align-self: flex-end;
+}
+
+.place__link-item:hover {
+  opacity: 0.8;
 }

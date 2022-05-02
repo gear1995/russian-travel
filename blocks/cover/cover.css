@@ -1,6 +1,7 @@
 .cover {
   margin-bottom: 92px;
   width: 100%;
+  position: relative;
 }
 
 @media screen and (max-width: 767px) {

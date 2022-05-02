@@ -1,11 +1,10 @@
-.footer__links {
+.nav {
   display: flex;
   text-decoration: none;
-  text-rendering: optimizeLegibility;
 }
 
 @media screen and (max-width: 767px) {
-  .footer__links {
+  .nav {
     flex-direction: column;
     margin-bottom: 48px;
   }
