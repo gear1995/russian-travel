@@ -23,4 +23,7 @@
     line-height: 24px;
     margin-bottom: 32px;
   }
+  .footer__link:nth-last-child(1) {
+    margin-bottom: 0;
+  }
 }
